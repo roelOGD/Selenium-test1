@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16845" started-at="2016-04-24T15:57:21Z" finished-at="2016-04-24T15:57:37Z">
+    <groups>
+      <group name="p1">
+        <method signature="LoginTest.loadPage()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="loadPage" class="Test1.Test1.LoginTest"/>
+        <method signature="LoginTest.testLoginMainpage(java.lang.String, java.lang.String)[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="testLoginMainpage" class="Test1.Test1.LoginTest"/>
+      </group> <!-- p1 -->
+      <group name="p2">
+        <method signature="LoginTest.filloutEmailFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutEmailFId" class="Test1.Test1.LoginTest"/>
+        <method signature="LoginTest.filloutPassFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutPassFId" class="Test1.Test1.LoginTest"/>
+      </group> <!-- p2 -->
+      <group name="field">
+        <method signature="LoginTest.filloutEmailFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutEmailFId" class="Test1.Test1.LoginTest"/>
+        <method signature="LoginTest.filloutPassFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutPassFId" class="Test1.Test1.LoginTest"/>
+      </group> <!-- field -->
+      <group name="pageLoads">
+        <method signature="LoginTest.loadPage()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="loadPage" class="Test1.Test1.LoginTest"/>
+      </group> <!-- pageLoads -->
+    </groups>
+    <test name="Default test" duration-ms="16845" started-at="2016-04-24T15:57:21Z" finished-at="2016-04-24T15:57:37Z">
+      <class name="Test1.Test1.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="setup" is-config="true" duration-ms="10723" started-at="2016-04-24T17:57:21Z" finished-at="2016-04-24T17:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="loadPage" duration-ms="1522" started-at="2016-04-24T17:57:31Z" finished-at="2016-04-24T17:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="testLoginMainpage(java.lang.String, java.lang.String)[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="testLoginMainpage" duration-ms="3516" started-at="2016-04-24T17:57:33Z" data-provider="login" finished-at="2016-04-24T17:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMainpage -->
+        <test-method status="PASS" signature="filloutEmailFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutEmailFId" duration-ms="869" started-at="2016-04-24T17:57:36Z" depends-on-methods="Test1.Test1.LoginTest.loadPage" finished-at="2016-04-24T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutEmailFId -->
+        <test-method status="PASS" signature="filloutPassFId()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="filloutPassFId" duration-ms="122" started-at="2016-04-24T17:57:37Z" depends-on-methods="Test1.Test1.LoginTest.filloutEmailFId" finished-at="2016-04-24T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutPassFId -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test1.Test1.LoginTest@d2e7d9]" name="teardown" is-config="true" duration-ms="0" started-at="2016-04-24T17:57:37Z" finished-at="2016-04-24T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test1.Test1.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
